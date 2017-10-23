@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">XNews</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--Gank-->
+    <string name="gank">干货集中营</string>
+    <!--掘金-->
+    <string name="gold">稀土掘金</string>
+    <!--开源中国-->
+    <string name="oschina">开源中国</string>
+
+    <!--系统-->
+    <string name="system">系统</string>
+    <string name="like">收藏</string>
+    <string name="setting">设置</string>
+</resources>
