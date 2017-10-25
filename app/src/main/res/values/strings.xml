@@ -18,4 +18,14 @@
     <string name="system">系统</string>
     <string name="like">收藏</string>
     <string name="setting">设置</string>
+    <string name="settings_base">基本设置</string>
+    <string name="theme">主题</string>
+    <string name="other">其他</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="feedback">意见反馈</string>
+    <string name="feedback_like_or_unlike">点赞与吐槽</string>
+    <string name="key_theme">key_theme</string>
+    <string name="key_cache">key_cache</string>
+    <string name="key_feedback">key_feedback</string>
+
 </resources>

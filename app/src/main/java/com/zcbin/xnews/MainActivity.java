@@ -1,5 +1,6 @@
 package com.zcbin.xnews;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentManager;
@@ -13,6 +14,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.zcbin.xnews.buisness.gank.fragment.GankMainFragment;
+import com.zcbin.xnews.system.SettingsActivity;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -71,10 +73,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 transaction.show(gankMainFragment);
                 transaction.commit();
             }
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_favorite) {
 
-        } else if (id == R.id.nav_send) {
-
+        } else if (id == R.id.nav_setting) {
+            Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
+            startActivity(intent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
